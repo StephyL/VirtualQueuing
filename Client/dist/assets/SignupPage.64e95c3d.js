@@ -1,0 +1,5 @@
+import{s as c,r as l,a as n,F as h,j as o}from"./index.9f59fa28.js";import{LoginContainer as p,LoginButton as g,LoginInfo as u,LoginInput as t,InputPassword as s,HidePassword as a,ShowPassword as i,SetAccount as w,Logo as S}from"./LoginPage.6f37fb65.js";import"./Logo-v5.756ba38c.js";const P=c(p)`
+    height: 440px;
+`,m=c(g)`
+    margin: 3% 10% 0 10%;
+`,C=()=>{const[e,d]=l.exports.useState(!1),r=()=>{d(!e)};return n(h,{children:o(P,{children:[o(u,{children:[n("h2",{children:"Agent Sign Up"}),o("p",{children:["Hey, Enter your details to  ",n("br",{})," sign up an new account"]})]}),n(t,{type:"text",placeholder:"Enter Email / Phone No"}),o(s,{children:[n(t,{type:e?"text":"password",placeholder:"Enter Password"}),e?n(a,{onClick:r}):n(i,{onClick:r})]}),o(s,{children:[n(t,{type:e?"text":"password",placeholder:"Enter Password"}),e?n(a,{onClick:r}):n(i,{onClick:r})]}),n(w,{children:n("h6",{children:n("a",{href:"/login",children:"Already have an account?"})})}),n(m,{children:n("p",{children:"Sign up"})}),n(S,{})]})})};export{C as default};
